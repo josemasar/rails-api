@@ -1,4 +1,4 @@
-class AircraftsController < ApplicationController
+class Api::V1::AircraftsController < ApplicationController
   before_action :set_aircraft, only: [:show, :update, :destroy]
 
   # GET /aircrafts
